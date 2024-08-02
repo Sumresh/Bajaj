@@ -15,8 +15,8 @@ function App() {
       const parsedJson = JSON.parse(jsonInput);
       console.log("Parsed JSON:", parsedJson); // Debugging statement
 
-      // Send POST request to the backend
-      const res = await fetch("http://localhost:3001/bfhl", {
+      // Send POST request to the backend https://backend1-js1f.onrender.com
+      const res = await fetch("http://backend1-js1f.onrender.com:3001/bfhl", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
